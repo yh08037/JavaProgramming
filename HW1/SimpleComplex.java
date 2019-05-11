@@ -1,7 +1,5 @@
 /* 김도훈 2018115809 */
 
-import javax.swing.text.StyleContext;
-
 public class SimpleComplex {
     private double real;
     private double imag;
@@ -9,7 +7,7 @@ public class SimpleComplex {
     public SimpleComplex() { set(0, 0); }
     public SimpleComplex(double re, double im) { set(re, im); }
     public SimpleComplex(SimpleComplex other) { set(other); }
-    
+
     public double re() { return this.real; }
     public double im() { return this.imag; }
     public double abs() {
@@ -39,15 +37,21 @@ public class SimpleComplex {
     }
 
     public String toString() {
-
+        if (this.imag < 0)
+            return "(" + Math.round(this.real*10)/10.0 + "" + Math.round(this.imag*10)/10.0 + "i)";
+        else
+            return "(" + Math.round(this.real*10)/10.0 + "+" + Math.round(this.imag*10)/10.0 + "i)";
     }
 
     public boolean equals(SimpleComplex other) {
-        return (this.real == other.re()) && (this.imag == other.re());
+        return (this.real == other.re()) && (this.imag == other.im());
     }
 
     public int compareTo(SimpleComplex o) {
-        // asdin
+        double tmp = this.abs() - o.abs();
+        if ( tmp > 0 ) return 1;
+        else if ( tmp == 0) return 0;
+        else return -1;
     }
 
 }
