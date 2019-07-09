@@ -27,6 +27,7 @@ public class CountAlphabet {
       for (; i < 26; i++) System.out.print(" " + (char)(A+i) + "," + (char)(a+i));
       System.out.println();
       for (; j < 26; j++) System.out.printf("%4d", count[j]);
+      System.out.println();
       printLine();
     }
   }
