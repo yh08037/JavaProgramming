@@ -1,0 +1,17 @@
+add A 1
+add A 2
+add A 3
+add A 4
+add A 5
+add B 6
+add B 7
+add B 8
+add B 9
+add B 10
+add C 1
+add C 2
+add C 3
+add C 11
+add C 12
+exit
+

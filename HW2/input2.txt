@@ -1,0 +1,20 @@
+add A 1
+add A 4
+add A 2
+add A 5
+add A 3
+add B 16
+add B 17
+add B 3
+add B 12
+add B 16
+add B 3
+union C A B
+union D C A
+add C 22
+add C 25
+add C 20
+add C 19
+intersection A C B
+difference B C D
+exit

@@ -1,0 +1,24 @@
+add U 1
+add U 2
+add U 3
+add U 4
+add U 5
+add U 6
+add U 7
+add U 8
+add U 9
+add U 10
+copy A U
+remove A 1
+remove A 3
+remove A 5
+remove A 7
+remove A 9
+complement B A
+add B 1
+add B 4
+union C A B
+intersection D B A
+difference C B A
+copy C A
+exit
