@@ -52,6 +52,20 @@
 * RandomPerm
 * SortedRandom
 
+## HW1 
+* EncryptMult
+* ApproximatePISphere
+* SimpleComplex, TestSimpleComplex
+* StemTriangle1, StemTriangle2
+* StemSine, StemCosine
+
+## Midterm 
+* CountingCharacters
+* DeckOfCards2Dim
+* FindNearestCosine
+* SortedRandomDescending
+* TwoTrianglesDigit
+
 ## Lecture 8 : Objects and Classes
 아래의 프로그램을 Java로 작성하기
 * UseBMI1
@@ -84,3 +98,16 @@
 * TestShape
 * TestBuyer
 * TestMyTV0
+
+## HW2
+* TestMySetInt
+* Complex, hw2_2
+* hw2_3, GenericMatrix, IntegerMatrix, DoubleMatrix, ComplexMatrix
+
+## Final exam
+* CountAlphabet
+* FindStatisticsAdvanced
+* TV1
+* TestCustomizableCar
+* TestShapePerimeter
+
